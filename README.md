@@ -5,6 +5,7 @@ Photovoltaic integration is required to replace power plants like coal and natur
 
 Input parameter for Load_All_Files_FC: <Load_Profile_Directory, Weather_Data, Validation>
 Load_Profile_Directory: Windows directory where Advanced metering infrastructure (AMI) meter recordings are present. 
+  
   Sample: "U:\MATLAB\FC Data\"
   Required files in the directory:
     Sample load file names inside location: "AMIReadings_*.csv"
