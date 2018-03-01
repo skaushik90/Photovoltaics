@@ -7,8 +7,8 @@ Input parameter for Load_All_Files_FC: <Load_Profile_Directory, Weather_Data, Va
 Load_Profile_Directory: Windows directory where Advanced metering infrastructure (AMI) meter recordings are present.   
   Sample: "U:\MATLAB\FC Data\"  
   Required files in the directory:  
-    Sample load file names inside location: "AMIReadings_*.csv"  
-    Premise IDs file name  
+    ?ts=4 Sample load file names inside location: "AMIReadings_*.csv"  
+    ?ts=4 Premise IDs file name  
 Loads Format: <premiseID, timestamp, delivered, received>  
 where  
   premiseID = Unique ID of a place where  meter is installed for measuring electricity consumption (can be a residential, commercial, industrial load)  
