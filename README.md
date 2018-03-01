@@ -13,7 +13,7 @@ Load_Profile_Directory: Windows directory where Advanced metering infrastructure
 * Premise IDs file name  
   Loads Format: <premiseID, timestamp, delivered, received>  
 where  
-  premiseID = Unique ID of a place where  meter is installed for measuring electricity consumption (can be a residential, commercial, industrial load)  
-  timestamp = Unix formatted Timestamp. Sample: "1448928000" is "Tue 01 Dec 2015 12:00:00 AM UTC"  
-  delivered = Power consumed in kW  
-  received = Power generated in kW  
+  * premiseID = Unique ID of a place where  meter is installed for measuring electricity consumption (can be a residential, commercial, industrial load)  
+  * timestamp = Unix formatted Timestamp. Sample: "1448928000" is "Tue 01 Dec 2015 12:00:00 AM UTC"  
+  * delivered = Power consumed in kW  
+  * received = Power generated in kW  
